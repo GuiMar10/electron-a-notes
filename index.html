@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="styles.css">
+    <script type="module" src="./index.js"></script>
+  </head>
+  <body>
+    <div id="sidebar">
+      <p>On My PC</p>
+      <button class="tab" id="selected"><span>&#xED2A</span>Recent</button>
+      <button class="tab"><span>&#xF2D9</span>Notes</button>
+    </div>
+    <div id="sidebar2">
+      <p>Today</p>
+      <button class="tab">
+        New Note
+        <p>13:30</p>
+      </button>
+      <button class="tab">
+        What Lorem Ipsum means
+        <p>13:04</p>
+      </button>
+      <br>
+      <br>
+      <p>Last Week</p>
+      <button class="tab">
+        Notes on Windows!
+        <p>09:41</p>
+      </button>
+      <!--<button id='sidetoggle'>
+        
+      </button>-->
+    </div>
+    <div id="content">
+    <div id="topbar">
+      <button>&#xF2F0</button>
+      <div id="tools" style="text-align: center; margin-top: -22px;">
+        <button style="font-size: 13px; margin-top: -6px;">&#xEC60</button>
+      <button style="font-size: 13px;">&#xEC6D</button>
+      <button style="font-size: 14px;"></button>
+      <button style="font-size: 18px;"></button>
+      <button style="font-size: 14px;"></button>
+      </div>
+      <div id='share' style="position: absolute; right: 8px; margin-top: -22px;">
+        <button style="font-size: 19px;"></button>
+      </div>
+    </div>
+    <div id="screen">
+      <input type="text" placeholder="Title..." value="Notes on Windows!" />
+      <div id="aiwork"><img src="./images/ai.png" alt="">Fixing typos...</div>
+      <div contenteditable="true" id="notecont">Lorem Ipsum dolor sit amet</div>
+    </div>
+  </div>
+  </body>
+</html>
